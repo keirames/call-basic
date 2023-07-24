@@ -11,6 +11,8 @@
 		AACBE69A2A6ADA480044304A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACBE6992A6ADA480044304A /* ContentView.swift */; };
 		AACBE69C2A6ADA480044304A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AACBE69B2A6ADA480044304A /* Assets.xcassets */; };
 		AACBE69F2A6ADA480044304A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AACBE69E2A6ADA480044304A /* Preview Assets.xcassets */; };
+		AACBE6A72A6D55F00044304A /* CallManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACBE6A62A6D55F00044304A /* CallManager.swift */; };
+		AAF096572A6EDE8400079881 /* DeepLinkParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF096562A6EDE8400079881 /* DeepLinkParser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		AACBE69B2A6ADA480044304A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AACBE69E2A6ADA480044304A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AACBE6A52A6AE0AB0044304A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		AACBE6A62A6D55F00044304A /* CallManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallManager.swift; sourceTree = "<group>"; };
+		AAF096562A6EDE8400079881 /* DeepLinkParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepLinkParser.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				AACBE6992A6ADA480044304A /* ContentView.swift */,
 				AACBE69B2A6ADA480044304A /* Assets.xcassets */,
 				AACBE69D2A6ADA480044304A /* Preview Content */,
+				AACBE6A62A6D55F00044304A /* CallManager.swift */,
+				AAF096562A6EDE8400079881 /* DeepLinkParser.swift */,
 			);
 			path = test;
 			sourceTree = "<group>";
@@ -139,6 +145,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAF096572A6EDE8400079881 /* DeepLinkParser.swift in Sources */,
+				AACBE6A72A6D55F00044304A /* CallManager.swift in Sources */,
 				AACBE69A2A6ADA480044304A /* ContentView.swift in Sources */,
 				AACBE6982A6ADA470044304A /* testApp.swift in Sources */,
 			);
